@@ -32,31 +32,32 @@ A. Session window:
 2. Port 22 should be in Port.
 3. Connection type: SSH.
 4. Type a name to identify these PuTTY connection parameters in the
-'Saved Sessions' box.  The name can be anything.  After all your PuTTY parameters
-are setup, you will be able to double click on this name in the listbox below the
-'Saved Sessions' box to make the connection.
+   'Saved Sessions' box.  The name can be anything.  After all your PuTTY parameters
+   are setup, you will be able to double click on this name in the listbox below the
+   'Saved Sessions' box to make the connection.
 5. Go ahead and save what has been done thus far by clicking the 'Save' button
-on the right side of the PuTTY interface.
+   on the right side of the PuTTY interface.
 
 B. Click on the 'Window/Behaviour' item in the menu tree.
-In the 'Window title:' box, enter 'SSH web tunnel' (without the single quotes).
+1. In the 'Window title:' box, enter 'SSH web tunnel' (without the single quotes).
 
 C. Click on the 'Connection/Data' item in the menu tree.
-In the 'Auto-login username' box, enter 'root' (without the single quotes).
+1. In the 'Auto-login username' box, enter 'root' (without the single quotes).
 
 D. Click on the 'Connection/SSH/Auth' item in the menu tree (click the + next to
-'SSH' to expand the tree if necessary).  If you have created SSH keys for logging
-in, place the path to your secret key in the Private key file for authenication:'
-box (possibly a ?.ppk file).  Otherwise, leave the box blank.
+'SSH' to expand the tree if necessary).
+1. If you have created SSH keys for logging in, place the path to your secret key in
+   the 'Private key file for authenication:' box (possibly a ?.ppk file).  Otherwise,
+   leave the box blank.
 
 E. Click on the 'Connection/Tunnels/' item in the menu tree.
 1. Enter 8080 into the 'Source port' box.
 2. Click on the 'Dynamic' line or button in the second from bottom row.
 3. Now click the Add button and you will see 'D8080' appear in the listbox below
-'Forwarded ports:'.
+   'Forwarded ports:'.
 
 F. Last, once again click on the top 'Session' item in the menu tree and click the
-'Save' button.  This must be done to save all the subsequent added parameters.
+   'Save' button.  This must be done to save all the subsequent added parameters.
 
 Now double click on the name you gave your parameters for your connection to
 the VPS in the Session window (or single click on the name, click the 'Load'
