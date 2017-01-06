@@ -16,4 +16,4 @@ destination Ip addresses will probably be leaked because you will be using the
 unencrypted DNS server used by your local machine.  The remote machine you are
 connected to may also sniff you DNS requests and thereby block you. The DnsCrypt
 installation and setup on a computer is not covered in this article, but can be
-found here: https://dnscrypt.org/.)
+found here: https://dnscrypt.org/  Also see: https://simplednscrypt.org/).
