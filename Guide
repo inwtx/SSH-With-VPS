@@ -1,0 +1,96 @@
+Necessities and Requirements:
+
+* A Windows computer
+* A VPS (A 512 MB DigitalOcean Debian 8.6 x64 was used for this setup)
+* Putty freeware program
+
+Simple Setup:
+
+* Create your VPS.
+
+It is best to create and 'Add your SSH key', but simply using a good, long
+password containing some non-alpha characters can be used to login to your
+VPS also.  Your VPS is going to be enduring continuous behind the scene attacks
+by hackers in an attempt to break into and use it for nefarious purposes.  Thus
+an SSH key or good password is most necessary.  Once the VPS has been
+created, copy or write down its IP Address for later use.  This is all you need to
+do concerning setting up the VPS.
+
+
+* PuTTY Setup:
+Download and install PuTTY from here Putty.  Download the 'Zip:' or 'Installer:',
+either will work.
+
+Start PuTTY by clicking on its desktop icon or the putty.exe in its folder.
+Click on the top 'Session' item in the menu tree on the left side of the PuTTY
+interface.
+
+Session window:
+  In the Host Name (or IP address) box, enter the IP address you recorded after
+creating you VPS.
+  Port 22 should be in Port.
+  Connection type: SSH.
+  Type a name to identify these PuTTY connection parameters in the
+'Saved Sessions' box.  The name can be anything.  After all your PuTTY
+parameters are setup, you will be able to double click on this name in the listbox
+below the 'Saved Sessions' box to make the connection.
+  Go ahead and save what has been done thus far by clicking the 'Save' button
+on the right side of the PuTTY interface.
+
+Click on the 'Window/Behaviour' item in the menu tree.
+  In the 'Window title:' box, enter 'SSH web tunnel' (without the single quotes).
+
+Click on the 'Connection/Data' item in the menu tree.
+  In the 'Auto-login username' box, enter 'root' (without the single quotes).
+
+Click on the 'Connection/SSH/Auth' item in the menu tree (click the + next to
+'SSH' to expand the tree if necessary).
+  If you have created SSH keys for logging in, place the path to your secret key
+in the Private key file for authenication:' box (possibly a ?.ppk file).  Otherwise,
+leave the box blank.
+
+Click on the 'Connection/Tunnels/' item in the menu tree.
+  Enter 8080 into the 'Source port' box.
+  Click on the 'Dynamic' line or button in the second from bottom row.
+  Now click the Add button and you will see 'D8080' appear in the listbox below
+  'Forwarded ports:'.
+
+Last, once again click on the top 'Session' item in the menu tree and click the
+'Save' button.  This must be done to save all the subsequent added parameters.
+
+Now double click on the name you gave your parameters for your connection to
+the VPS in the Session window (or single click on the name, click the 'Load'
+button, and then the 'Open' button at the bottom of the PuTTY interface).  You
+should see a window popup connecting you to your VPS.  Answer 'Yes' to the
+'Putty Security Alert' window message that will popup the first time you connect.
+If you are using a password, enter it at the password prompt.  If there is a
+problem with connecting, close the window, start PuTTY again, single click on the
+connection name again, and click the 'Load' button above the Save button.
+Examine all your parameters again to see if there is an error.
+(Note the 'Connection/Tunnels' window will have reset to its original defaults,
+however the D8080 should still be in the 'Forwarded ports:' listbox.)
+
+Browser parameters setup:
+  You now must set your browser to connect to PuTTY.  I am using FireFox the
+browser for this demonstration.  Using FireFox with FoxyProxy makes switching
+between your normal connection and your VPS very easy.
+
+  Setup without FoxyProxy:
+
+Go to 'Tools/Options/Advanced/Network'.  Click the 'Settings...' button next to
+'Configure how Firefox connects to the Internet' and set the parameters as below:
+
+picture
+
+If using FireFox with FoxyProxy, open the FoxyProxy window, click 'Add New Proxy'.
+In the 'General' tab, make the 'Proxy Name' the same name you gave to the PuTTY
+'Session' (however, it can be any name).  In the 'Proxy Details' tab, click
+'Manual Proxy Configuration', in 'Host or IP Address' enter 127.0.0.1. In 'Port', enter
+8080.  Check 'SOCKS proxy?' and 'SOCKS v5'.
+
+After you make the changes to the browser network parameters, you should be able
+to brows through the VPS.  If using FoxyProxy, remember that you have to right click
+and select the FoxyProxy line for the VPS.
+
+To shutdown the PuTTY connection, type 'exit' at the connection window prompt.
+
