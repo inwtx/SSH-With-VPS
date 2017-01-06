@@ -6,7 +6,7 @@ Necessities and Requirements:
 
 Simple Setup:
 
-* Create your VPS.
+* Create your VPS:
 
 It is best to create and 'Add your SSH key' to a VPS, but simply using a good,
 long password containing some non-alpha characters can be used to login to your
@@ -17,6 +17,7 @@ copy or write down its IP Address for later use.  This is all you need to do
 concerning setting up the VPS.
 
 * PuTTY Setup:
+
 Download and install PuTTY from:
   http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 Download the 'Zip:' or 'Installer:', either will work.
@@ -27,7 +28,7 @@ interface.
 
 A. Session window:
 1. In the Host Name (or IP address) box, enter the IP address you recorded after
-creating you VPS.
+   creating you VPS.
 2. Port 22 should be in Port.
 3. Connection type: SSH.
 4. Type a name to identify these PuTTY connection parameters in the
