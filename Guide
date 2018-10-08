@@ -1,18 +1,13 @@
-<p>
 Necessities and Requirements:
-</p>
-<p>
+
 * A Windows computer
 * A VPS (A 512 MB DigitalOcean Debian 8.6 x64 was used for this setup)
 * Putty freeware program
-</p>
-<p>
+
 Simple Setup:
-</p>
-<p>
+
 * Create your VPS:
-</p>
-<p>
+
 It is best to create and 'Add your SSH key' to a VPS, but simply using a good,
 long password containing some non-alpha characters can be used to login to your
 VPS also.  Your VPS is going to be enduring continuous behind the scene attacks
@@ -22,21 +17,17 @@ copy or write down its IP Address for later use.  This is all you need to do
 concerning setting up the VPS.
 
 
-</p>
-<p>
+
 * PuTTY Setup:
-</p>
-<p>
+
 Download and install PuTTY from:
   http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 Download the 'Zip:' or 'Installer:', either will work.
-</p>
-<p>
+
 Start PuTTY by clicking on its desktop icon or the putty.exe in its folder.
 Click on the top 'Session' item in the menu tree on the left side of the PuTTY
 interface.
-</p>
-<p>
+
 A. Session window:
 1. In the 'Host Name (or IP address)' box, enter the IP address you recorded after
    creating you VPS.
