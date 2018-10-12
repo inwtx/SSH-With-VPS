@@ -77,7 +77,7 @@ interface.<br><br>
 <p align="left">
 <b>B. Click on the 'Window/Behaviour' item in the menu tree.</b><br>
 <img src="/image/Putty-Behavior.png" width="466" height="445"><br>
-1. In the 'Window title:' box, enter 'SSH web tunnel' (without the single quotes).<br><br>
+1. In the 'Window title:' box, enter the same name you chose in A4 above.<br><br>
 </p>
 
 <p align="left">
@@ -94,10 +94,10 @@ interface.<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Otherwise, leave the box blank.<br><br>
 </p>
 <p align="left">
-<b>E. Click on the 'Connection/Tunnels/' item in the menu tree.</b><br>
+<b>E. Click on the 'Connection/SSH/Tunnels/' item in the menu tree.</b><br>
   <img src="/image/Putty-Tunnnel A.png" width="466" height="445"><br>
 1. Enter 8080 into the 'Source port' box.<br>
-2. Click on the 'Dynamic' line or check its button in the second from bottom row.<br>
+2. Click on the 'Dynamic' check button in the second from bottom row.<br>
 3. Now click the Add button and you will see 'D8080' appear in the listbox below<br>
 &nbsp;&nbsp;&nbsp;&nbsp;'Forwarded ports:'.<br>
 &nbsp;&nbsp;Result should look like this:<br>
