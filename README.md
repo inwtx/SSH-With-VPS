@@ -63,7 +63,7 @@ interface.<br><br>
 <b>A. Session window:</b><br>
 <img src="/image/Putty-Session1.png" width="466" height="445"><br>
 1. In the 'Host Name (or IP address)' box, enter the IP address you recorded after<br>
-   creating you VPS.<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;creating you VPS.<br>
 2. Port 22 should be in 'Port' (unless you have changed your SSH port number).<br>
 3. Connection type: 'SSH'.<br>
 4. Type a name to identify these PuTTY connection parameters in the 'Saved Sessions'<br>
