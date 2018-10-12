@@ -1,6 +1,6 @@
 # SSH-With-VPS<br>
 <p>
-A simple setup for using a VPS as a proxy to surf the web.<br>
+<b>A simple setup for using a VPS as a proxy to surf the web.</b><br>
 </p>
 <p>
 Note: This type of tunnel can be used on any operating system, however the scope<br>
@@ -60,7 +60,7 @@ Click on the top 'Session' item in the menu tree on the left side of the PuTTY<b
 interface.<br><br>
 </p>
 <p align="left">
-  A. Session window:<br>
+<b>A. Session window:</b><br>
 <img src="/image/Putty-Session1.png" width="466" height="445"><br>
 1. In the 'Host Name (or IP address)' box, enter the IP address you recorded after<br>
    creating you VPS.<br>
@@ -75,26 +75,26 @@ interface.<br><br>
    on the right side of the PuTTY interface.<br><br>
 </p>
 <p align="left">
-B. Click on the 'Window/Behaviour' item in the menu tree.<br>
+<b>B. Click on the 'Window/Behaviour' item in the menu tree.</b><br>
 <img src="/image/Putty-Behavior.png" width="466" height="445"><br>
 1. In the 'Window title:' box, enter 'SSH web tunnel' (without the single quotes).<br><br>
 </p>
 
 <p align="left">
-C. Click on the 'Connection/Data' item in the menu tree.<br>
+<b>C. Click on the 'Connection/Data' item in the menu tree.</b><br>
 <img src="/image/Putty-Data.png" width="466" height="445"><br>
 1. In the 'Auto-login username' box, enter 'root' (without the single quotes).<br><br>
 </p>
 <p align="left">
-D. Click on the 'Connection/SSH/Auth' item in the menu tree (click the + next to<br>
-   'SSH' to expand the tree if necessary).<br>
+<b>D. Click on the 'Connection/SSH/Auth' item in the menu tree (click the + next to<br>
+   'SSH' to expand the tree if necessary).</b><br>
   <img src="/image/Putty-Key.png" width="466" height="445"><br>
 1. If you have created an SSH keys for logging in, place the path to your secret<br>
    key in the 'Private key file for authenication:' box (possibly a ?.ppk file).<br>
    Otherwise, leave the box blank.<br><br>
 </p>
 <p align="left">
-E. Click on the 'Connection/Tunnels/' item in the menu tree.<br>
+<b>E. Click on the 'Connection/Tunnels/' item in the menu tree.</b><br>
   <img src="/image/Putty-Tunnnel A.png" width="466" height="445"><br>
 1. Enter 8080 into the 'Source port' box.<br>
 2. Click on the 'Dynamic' line or check its button in the second from bottom row.<br>
@@ -105,8 +105,8 @@ E. Click on the 'Connection/Tunnels/' item in the menu tree.<br>
   <img src="/image/Putty-Tunnnel B.png" width="466" height="445"><br><br>
 </p>
 <p>
-F. Last, once again click on the top 'Session' item in the menu tree and click the<br>
-   'Save' button.  This must be done to save all the subsequent added parameters.<br>
+<b>F. Last, once again click on the top 'Session' item in the menu tree and click the<br>
+   'Save' button.  This must be done to save all the subsequent added parameters.</b><br>
 </p>
 <p>
 Now double click on the name you gave your parameters for your connection to<br>
