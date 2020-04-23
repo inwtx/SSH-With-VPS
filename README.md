@@ -149,7 +149,7 @@ B. Setup with FoxyProxy:<br>
 </p>
 <p>
 After you make the changes to the browser network parameters, you should be able<br>
-to brows through the VPS.  If using FoxyProxy, remember that you have to right click<br>
+to brows through the VPS.  If using FoxyProxy, remember that you have to left click<br>
 and select the FoxyProxy line for the VPS = 'SSH web tunnel'.<br>
 </p>
 <p>
